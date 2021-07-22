@@ -1,12 +1,12 @@
 # Rz-Rasel-Unity-2d-Video-Tutorial-One
-Rz Rasel - Unity 2d - Tutorial
+Rz Rasel - Unity 2d Tutorial - Infinite Scrolling Background One
 
 ### GIT Command
 ```git_command
 git init
 git remote add origin https://github.com/rzrasel/Rz-Rasel-Unity-2d-Video-Tutorial-One.git
 git remote -v
-git fetch && git checkout master
+git fetch && git checkout Unity-2d-Tutorial-Infinite-Scrolling-Background-One
 git add .
 git commit -m "Add Readme & Git Commit File"
 git pull
