@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BgRepeat : MonoBehaviour {
+public class BgRepeater : MonoBehaviour {
 	private BoxCollider2D boxCollider;
 	private Rigidbody2D rigidBody;
 	private float width;
@@ -15,15 +15,15 @@ public class BgRepeat : MonoBehaviour {
 		width = boxCollider.size.x;
 		rigidBody.velocity = new Vector2 (speed, 0);
 	}
-
+	
 	// Update is called once per frame
 	void Update () {
 		if (transform.position.x < -width) {
-			onRepeate ();
+			onBgRepeater ();
 		}
 	}
 
-	private void onRepeate() {
+	private void onBgRepeater() {
 		Vector2 vector = new Vector2 (width * 2, 0);
 		transform.position = (Vector2)transform.position + vector;
 	}

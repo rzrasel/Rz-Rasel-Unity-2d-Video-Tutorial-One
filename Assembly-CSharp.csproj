@@ -53,7 +53,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\BgRepeat.cs" />
+     <Compile Include="Assets\Script\BgRepeater.cs" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>C:/Users/Rz Rasel/Desktop/Unity Infinite Scrolling Background/RzRaselTutorial/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
