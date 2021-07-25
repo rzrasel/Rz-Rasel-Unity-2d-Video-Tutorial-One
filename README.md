@@ -40,4 +40,13 @@ Your repository should now be below the size limit.
 -- git gc --prune=now
 ```
 
+Navigate to your repository:
+```
+cd my_repository/
+git checkout Unity-2d-Tutorial-Infinite-Scrolling-Background-One
+git filter-branch --force --tree-filter 'rm -f path/to/big_file.mpg' HEAD
+git reflog expire --expire=now --all && git gc --prune=now --aggressive
+git push --force origin Unity-2d-Tutorial-Infinite-Scrolling-Background-One
+```
+
 [![Unity 2d Infinite Scrolling 2d Sprite Background In C# - Speed Coding by Rz Rasel](https://yt-embed.herokuapp.com/embed?v=Sa8Hhm0K_Ws)](https://youtu.be/Sa8Hhm0K_Ws "Unity 2d Infinite Scrolling 2d Sprite Background In C# - Speed Coding by Rz Rasel")
