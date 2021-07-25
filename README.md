@@ -1,4 +1,4 @@
-# Rz-Rasel-Unity-2d-Video-Tutorial-One
+# Unity-2d-Tutorial-Infinite-Scrolling-Background-One
 Rz Rasel - Unity 2d Tutorial - Infinite Scrolling Background One
 
 [![Unity 2d Infinite Scrolling 2d Sprite Background In C# - Speed Coding by Rz Rasel](https://img.youtube.com/vi/Sa8Hhm0K_Ws/0.jpg)](https://youtu.be/Sa8Hhm0K_Ws)
